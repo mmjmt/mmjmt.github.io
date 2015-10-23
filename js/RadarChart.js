@@ -15,7 +15,7 @@
     ]
 };
 
-var WebChart = new Chart(document.getElementById("canvasWeb").getContext("2d")).Radar(data1, { scaleFontSize: 13, scaleFontColor: "#ddd", pointDot: false, pointLabelFontColor: "#ddd", responsive: true, angleLineColor: "rgba(0,0,0,.2)", scaleLineColor: "rgba(0,0,0,0.1)" });
+var WebChart = new Chart(document.getElementById("canvasWeb").getContext("2d")).Radar(data1, { scaleFontSize: 13, scaleFontColor: "#fff", pointDot: false, pointLabelFontColor: "#fff", responsive: true, angleLineColor: "rgba(0,0,0,.2)", scaleLineColor: "rgba(0,0,0,0.1)" });
 
 var data3 = {
     labels: ["ASPEN Tech", "MATLAB", "CAD", "MS Project Manager", "MS Visio", "GC", "Project Economics"],
@@ -34,4 +34,4 @@ var data3 = {
     ]
 };
 
-var EngChart = new Chart(document.getElementById("canvasEng").getContext("2d")).Radar(data3, { scaleFontSize: 13, scaleFontColor: "#ddd", pointDot: false, pointLabelFontColor: "#ddd", responsive: true, angleLineColor: "rgba(0,0,0,.2)", scaleLineColor: "rgba(0,0,0,0.1)" });
+var EngChart = new Chart(document.getElementById("canvasEng").getContext("2d")).Radar(data3, { scaleFontSize: 13, scaleFontColor: "#fff", pointDot: false, pointLabelFontColor: "#fff", responsive: true, angleLineColor: "rgba(0,0,0,.2)", scaleLineColor: "rgba(0,0,0,0.1)" });

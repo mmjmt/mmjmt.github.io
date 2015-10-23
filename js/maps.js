@@ -9,7 +9,7 @@ var transX = 0;
 var transYinit ;
 var transXinit ;
 
-
+//These logics test for browser screen size to apply SetMarker and SetCenter transformation
 if ($('#education').width() > 992) {
     transY = -0.002;
     transYinit = -8.004;
@@ -31,6 +31,7 @@ else {
     transYinit = 0;
 }
 
+//initializes map onto html
 function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), {
         center: new google.maps.LatLng(40.007471 + transXinit, -105.266118 + transYinit), // Boulder CO
