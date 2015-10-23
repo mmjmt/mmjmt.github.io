@@ -773,3 +773,26 @@ body {
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     color: #FFF !important;
 }
+
+.contact-button {
+    padding:10px 30px 13px 30px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    width: 40%;
+    font-family: 'Helvetica Neue LT Pro';
+    font-size: 36px;
+    color: #333;
+    
+}
+
+.contact-button:hover{
+    background-color: rgba(0, 135, 173, .1);
+    text-decoration: none;
+    border-color: #333;
+    color: rgba(0, 135, 173, 1);
+}
+
+.contact-button:focus {
+    text-decoration: none;
+}
